@@ -1,0 +1,51 @@
+.user-menu ul {
+  display: block;
+  font-size: 14px !important;
+  position: absolute;
+  background-color: #fff;
+  color: #30c7ed;
+  border: 0.1px solid #cccccc;
+  z-index: 2999;
+  text-decoration: none;
+  right: 13px;
+  margin: 0px;
+  padding: 10px 10px 0px 10px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 1px 9px 1px #00000036;
+}
+
+.user-menu ul:before,
+.user-menu ul:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  width: 0;
+  height: 0;
+}
+.user-menu ul:before {
+  left: 80px;
+  border: 11px solid transparent;
+  border-bottom-color: #ddd;
+}
+.user-menu ul:after {
+  left: 81px;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+}
+
+.user-menu li {
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 0.1px solid #cccccc;
+  padding: 5px;
+}
+
+.user-menu li:last-child {
+  border-bottom: none;
+}
+
+.user-menu li:hover {
+  color: #00aff7;
+}
